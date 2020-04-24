@@ -11,6 +11,4 @@ def say_whee():
 
 
 if __name__ == "__main__":
-    run_func = my_decorator(say_whee)
-    run_func()
-
+    my_decorator(say_whee)()
